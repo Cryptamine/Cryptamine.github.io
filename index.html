@@ -25,21 +25,23 @@
       <h1>OhOh</h1>
     </div>
 <!-- JACKSON.MP3 -->   
-<script>
-    function PlaySound(jackson) {
-        alert(On Press of + jackson);
-        var path = "https://raw.githubusercontent.com/mausemongo/mausemongo.github.io/master/mp3/jackson.mp3"
-        var snd = new Audio(path + jackson + ".mp3");
-        snd.play();
-    }
-    
-</script>
+
+	  
+	 
+
+
+	  
+	  
+	  
+	  
   </div>
   <div class="slide slide_row_0_column_2" style="width: 33.3333%; height: 50%; left: 66.6667%; top: 0%; opacity: 1;">
-    <div class="image"><div class="preloader"><div></div><div></div></div><div class="image-in image1"></div><div class="image-in image2"></div></div>
+    <div class="image" id="play"><div class="preloader"><div></div><div></div></div><div class="image-in image1"></div><div class="image-in image2"></div></div>
     <div class="text">
       <h1>Ah, des mit der Maus hadd i au mal</h1>
     </div>
+	  <audio id="play" src="http://www.soundjay.com/button/beep-07.wav"></audio>
+	  <button onclick="playSound()">Play</button> 
   </div>
   <div class="slide slide_row_1_column_0" style="width: 33.3333%; height: 50%; left: 0%; top: 50%; opacity: 1;">
     <div class="image"><div class="preloader"><div></div><div></div></div><div class="image-in image1"></div><div class="image-in image2"></div></div>
