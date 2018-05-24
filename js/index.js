@@ -27,7 +27,11 @@ acAnimated.Wall = function(wall) {
       currentColumn = 0; 
       currentRow += 1;
     }
-    
+    function playSound () {
+    document.getElementById('play').play();
+}
+	  
+	  
     timeline
     .add("slide_" + String(i + 1), acAnimated.randomNumber(0, 5) / 10)
     .to(slide, 0.5, {opacity: 1}, "slide_" + String(i + 1));
